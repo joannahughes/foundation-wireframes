@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sites Details Wireframe</title>
+    <title>Interior Details Wireframe | V7</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <!--end .mainNav-->
+        <!--.mainNav-->
         <div class="top-bar mainNav">
             <div class="row">
                 <div class="top-bar-left">
@@ -31,9 +31,66 @@
         <!--end .mainNav-->
         <div class="sticky-container">
             <div class="row main-content">
-                <div class="large-12 columns">
-                    <h3>Site ID</h3>
-                    <p>9f6454f952c3f36</p>
+                <div class="large-4 columns">
+                    <h4>At a Glance</h4>
+                    <table class="stack">
+                        <tbody>
+                            <thead>
+                            <tr>
+                                <th colspan="2">server.name</th>
+                            </tr>
+                            </thead>
+                            <tr>
+                                <td class="menu-text">Server Load</td>
+                                <td>xxxxx</td>
+                            </tr>
+                            <tr>
+                                <td class="menu-text">MySQL</td>
+                                <td>xxxxx</td>
+                            </tr>
+                            <tr>
+                                <td class="menu-text">Apache</td>
+                                <td>xxxxx</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="large-8 columns">
+                    <h4>General Information</h4>
+                    <table class="stack">
+                        <tbody>
+                            <tr>
+                                <td class="menu-text">ID</td>
+                                <td>2225647</td>
+                                <td class="menu-text">IP Address</td>
+                                <td>104.121.219.111</td>
+                            </tr>
+                            <tr>
+                                <td class="menu-text">Memory</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Disk</td>
+                                <td>xxxxx</td>
+                            </tr>
+                            <tr>
+                                <td class="menu-text">vCPUS</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Status</td>
+                                <td>xxxxx</td>
+                            </tr>
+                            <tr>
+                                <td class="menu-text">Locked</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Created</td>
+                                <td>xxxxx</td>
+                            </tr>
+                            <tr>
+                                <td class="menu-text">Region</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Region Available</td>
+                                <td>xxxxx</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
             <!--.second-menu-->
@@ -41,26 +98,85 @@
             <div class="row second-menu">
                 <ul class="menu">
                     <li class="menu-text">Actions |</li>
-                    <li><a href="#">Add Site</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
                 </ul>
             </div>
             <hr class="full-width">
             <!--end .second-menu-->
             <div class="row main-content">
                 <div class="large-10 columns end callout small">
-                    <table>
+                       <ul class="tabs" data-tabs id="graphs">
+                        <li class="tabs-title is-active"><a href="#graph1" aria-selected="true">Usage</a></li>
+                        <li class="tabs-title"><a href="#graph2">CPU</a></li>
+                        <li class="tabs-title"><a href="#graph3">Disk</a></li>
+                    </ul>
+                    <div class="tabs-content" data-tabs-content="graphs">
+                        <div class="tabs-panel is-active" id="graph1">
+                            <p><img src="assets/large-graph-1.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph2">
+                            <p><img src="assets/large-graph-2.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph3">
+                            <p><img src="assets/large-graph-3.png"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row main-content">
+                <div class="large-10 columns end callout small">
+                    <h4>Event Info</h4>
+                    <table class="stack">
                         <tbody>
                             <tr>
-                                <td class="menu-text">Name</td>
-                                <td>xxxxxx</td>
-                                <td class="menu-text">URL</td>
-                                <td>xxxxxx</td>
+                                <td class="menu-text"> Power On </td>
+                                <td class="menu-text">Status</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Started</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Completed</td>
+                                <td>xxxxx</td>
                             </tr>
                             <tr>
-                                <td class="menu-text">Server</td>
-                                <td>xxxxxx</td>
-                                <td class="menu-text">Notes</td>
-                                <td>xxxxxx</td>
+                                <td class="menu-text"> Upgrade </td>
+                                <td class="menu-text">Status</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Started</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Completed</td>
+                                <td>xxxxx</td>
+                            </tr>
+                            <tr>
+                                <td class="menu-text">Create </td>
+                                <td class="menu-text">Status</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Started</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Completed</td>
+                                <td>xxxxx</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+               <div class="row main-content">
+                <div class="large-10 columns end callout small">
+                    <h4>Image Info</h4>
+                    <table class="stack">
+                        <tbody>
+                            <tr>
+                                <td class="menu-text">Distribution</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Name</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Image ID</td>
+                                <td>xxxxx</td>
+                                <td class="menu-text">Public</td>
+                                <td>xxxxx</td>
                             </tr>
                         </tbody>
                     </table>
