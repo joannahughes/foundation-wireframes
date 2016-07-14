@@ -12,6 +12,10 @@
     margin-top: 20px;
 }
 
+table {
+    width: 100%;
+}
+
 .sticky-container {
     min-height: calc(100vh - 57px);
 }
