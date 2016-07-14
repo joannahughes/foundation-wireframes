@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.row {
+  max-width: 62.5rem;
+}
+
+.main-content {
+    margin-top: 30px;
+}
+
+.second-menu {
+    margin-top: 20px;
+}
+
+.sticky-container {
+    min-height: calc(100vh - 57px);
+}
+
+.full-width {
+    max-width: 100%;
+}
