@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server Details Wireframe | V4</title>
+    <title>Server Details Wireframe | V6</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
@@ -63,6 +63,147 @@
             </div>
             <hr class="full-width">
             <div class="row main-content">
+                <div class="large-10 columns end">
+                       <ul class="tabs" data-tabs id="graphs">
+                        <li class="tabs-title is-active"><a href="#graph1" aria-selected="true">Usage</a></li>
+                        <li class="tabs-title"><a href="#graph2">CPU</a></li>
+                        <li class="tabs-title"><a href="#graph3">Disk</a></li>
+                    </ul>
+                    <div class="tabs-content" data-tabs-content="graphs">
+                        <div class="tabs-panel is-active" id="graph1">
+                            <p><img src="assets/large-graph-1.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph2">
+                            <p><img src="assets/large-graph-2.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph3">
+                            <p><img src="assets/large-graph-3.png"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row main-content">
+                <div class="large-6 columns">
+                    <div class="callout small">
+                        <h6>General Info</h6>
+                        <table class="stack">
+                            <tbody>
+                                <tr>
+                                    <td class="menu-text">ID</td>
+                                    <td>2225647</td>
+                                    <td class="menu-text">IP Address</td>
+                                    <td>104.121.219.111</td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text">Memory</td>
+                                    <td>xxxxx</td>
+                                    <td class="menu-text">Disk</td>
+                                    <td>xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text">vCPUS</td>
+                                    <td>xxxxx</td>
+                                    <td class="menu-text">Status</td>
+                                    <td>xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text">Locked</td>
+                                    <td>xxxxx</td>
+                                    <td class="menu-text">Created</td>
+                                    <td>xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text">Region</td>
+                                    <td>xxxxx</td>
+                                    <td class="menu-text">Region Available</td>
+                                    <td>xxxxx</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="large-6 columns">
+                     <div class="callout small">
+                        <h6>Event Info</h6>
+                        <table class="stack">
+                            <tbody>
+                                <tr>
+                                    <td class="menu-text">Distribution</td>
+                                    <td>xxxxx</td>
+                                    <td class="menu-text">Name</td>
+                                    <td>xxxxx</td>
+                                </tr>
+                                <tr>
+                                    <td class="menu-text">Image ID</td>
+                                    <td>xxxxx</td>
+                                    <td class="menu-text">Public</td>
+                                    <td>xxxxx</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-6 columns end">
+                      <div class="callout small">
+                        <h6>Image Info</h6>     
+                        <table class="stack">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p><strong>Power On</strong></p>
+                                        <p>Status</p>
+                                        <p>Started</p>
+                                        <p>Complete</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Create</strong></p>
+                                        <p>Status</p>
+                                        <p>Started</p>
+                                        <p>Complete</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Upgrade</strong></p>
+                                        <p>Status</p>
+                                        <p>Started</p>
+                                        <p>Complete</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+<!--
+                 <div class="large-6 columns">
+                    <ul class="tabs" data-tabs id="graphs">
+                        <li class="tabs-title is-active"><a href="#graph1" aria-selected="true">Usage</a></li>
+                        <li class="tabs-title"><a href="#graph2">CPU</a></li>
+                        <li class="tabs-title"><a href="#graph3">Disk</a></li>
+                    </ul>
+                    <div class="tabs-content" data-tabs-content="graphs">
+                        <div class="tabs-panel is-active" id="graph1">
+                            <p><img src="assets/large-graph-1.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph2">
+                            <p><img src="assets/large-graph-2.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph3">
+                            <p><img src="assets/large-graph-3.png"></p>
+                        </div>
+                    </div>
+                </div> 
                 <div class="large-6 columns">
                     <div class="callout small">
                         <h6>General Info</h6>
@@ -148,12 +289,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="large-6 columns">
-                    <p><img src="assets/large-graph-1.png" alt="example graph 1"></p>
-                    <p><img src="assets/large-graph-2.png" alt="example graph 2"></p>
-                    <p><img src="assets/large-graph-3.png" alt="example graph 3"></p>
-                </div> 
-            </div>       
+            </div>   -->    
         </div><!--end sticky-container-->
         <footer class="main-footer">
             <div class="top-bar">

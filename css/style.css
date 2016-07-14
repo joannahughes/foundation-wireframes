@@ -21,3 +21,11 @@
 .full-width {
     max-width: 100%;
 }
+
+@media screen and (min-width: 64em){
+.large-10 
+    {
+    width: 83.33333%;
+    margin: 0 5rem;
+}
+}
