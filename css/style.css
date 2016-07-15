@@ -12,6 +12,9 @@ h6,
 p,
 li,
 span,
+td,
+tr,
+th,
 a {
     font-family: 'Lato' , sans-serif;
     color: #363636;
@@ -50,6 +53,9 @@ a:hover {
     text-decoration: underline;
 }
 
+.top-bar .top-bar-left a {
+    
+}
 
 
 .menu-text {
@@ -80,12 +86,14 @@ a:hover {
     background-color: #b3cde0;
 }
 
+
+
 .sub-nav .menu li {
     padding-right: 20px;
 }
 
 table thead, table tbody, table tfoot {
-    border: 1px solid #bdbdbd;
+    border: 1px solid #f1f1f1;
     background-color: #fefefe;
 }
 
@@ -100,9 +108,19 @@ table thead th, table thead td, table tfoot th, table tfoot td {
     background-color: #363636;
 }
 
+table tbody th, table tbody td {
+    padding: 0.5rem 0.625rem 0.625rem;
+    text-align: left;
+}
+
+
 .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
     background: #363636;
     color: #62bae0;
+}
+
+.main-table a {
+    color:#62bae0;
 }
 
 .tabs-content {
@@ -110,6 +128,13 @@ table thead th, table thead td, table tfoot th, table tfoot td {
     transition: all 0.5s ease;
     border: none;
     border-top: 0;
+}
+
+.pagination .current {
+    padding: 0.1875rem 0.625rem;
+    background: #363636;
+    color: #62bae0;
+    cursor: default;
 }
 
 .main-footer p {

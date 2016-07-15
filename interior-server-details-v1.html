@@ -109,29 +109,24 @@
             <hr class="full-width">
             <!--end .sub-nav-->
             <div class="row content">
-                <div class="large-12 columns">
-                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-                        <ul class="orbit-container">
-                            <button class="orbit-previous">&#9664;&#xFE0E;</button>
-                            <button class="orbit-next">&#9654;&#xFE0E;</button>
-                            <li class="orbit-slide is-active">
-                                <img class="orbit-image" src="assets/large-graph-1.png" alt="example graph 1">
-                            </li>
-                            <li class="orbit-slide">
-                                <img class="orbit-image" src="assets/large-graph-2.png" alt="example graph 1">
-                            </li>
-                            <li class="orbit-slide">
-                                <img class="orbit-image" src="assets/large-graph-3.png" alt="example graph 1">
-                            </li>
-                        </ul>
-                        <nav class="orbit-bullets show-for-large">
-                          <button class="is-active" data-slide="0"></button>
-                          <button data-slide="1"></button>
-                          <button data-slide="2"></button>
-                        </nav>
+                <div class="large-10 columns end">
+                       <ul class="tabs" data-tabs id="graphs">
+                        <li class="tabs-title is-active"><a href="#graph1" aria-selected="true">Usage</a></li>
+                        <li class="tabs-title"><a href="#graph2">CPU</a></li>
+                        <li class="tabs-title"><a href="#graph3">Disk</a></li>
+                    </ul>
+                    <div class="tabs-content" data-tabs-content="graphs">
+                        <div class="tabs-panel is-active" id="graph1">
+                            <p><img src="assets/large-graph-1.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph2">
+                            <p><img src="assets/large-graph-2.png"></p>
+                        </div>
+                        <div class="tabs-panel" id="graph3">
+                            <p><img src="assets/large-graph-3.png"></p>
+                        </div>
                     </div>
                 </div>
-            </div> 
             <div class="row">
                 <div class="large-6 columns">
                     <ul class="accordion" data-accordion data-allow-all-closed="true">
