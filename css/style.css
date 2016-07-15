@@ -50,6 +50,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
+
 .menu-text {
     font-familY: 'Source Sans Pro', sans-serif;
     font-size: 1.125rem;
@@ -80,6 +82,34 @@ a:hover {
 
 .sub-nav .menu li {
     padding-right: 20px;
+}
+
+table thead, table tbody, table tfoot {
+    border: 1px solid #bdbdbd;
+    background-color: #fefefe;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table thead th, table thead td, table tfoot th, table tfoot td {
+    padding: 0.5rem 0.625rem 0.625rem;
+    font-weight: bold;
+    text-align: left;
+    background-color: #363636;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+    background: #363636;
+    color: #62bae0;
+}
+
+.tabs-content {
+    background: #fefefe;
+    transition: all 0.5s ease;
+    border: none;
+    border-top: 0;
 }
 
 .main-footer p {

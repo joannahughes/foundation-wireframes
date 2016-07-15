@@ -4,18 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Server Details Wireframe</title>
+    <title>V1 | Server Details Wireframe</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="top-bar mainNav">
+        <!--.main-nav-->
+        <div class="top-bar main-nav">
             <div class="row">
                 <div class="top-bar-left">
                     <ul class="menu">
-                        <li class="menu-text">LOGO</li>
+                        <li class="menu-text">BD Monitoring</li>
                     </ul>
                 </div>
                 <div class="top-bar-right">
@@ -25,27 +26,18 @@
                         <li><a href="#">Alerts</a></li>
                     </ul>
                 </div>
-            </div><!--end row-->
-        </div><!--end .mainNav-->
-       <!-- <div class="row">
-                <ul class="menu">
-                    <li class="menu-text">Actions |</li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                </ul>
-        </div> -->
+            </div>
+        </div>
+        <!--end .main-nav-->
         <div class="sticky-container">
-            <div class="row main-content">
+            <div class="row content">
                 <div class="large-4 columns">
-                    <h3>At a Glance</h3>
+                    <h4>At a Glance</h4>
                     <table class="stack">
                         <tbody>
                             <thead>
                             <tr>
-                                <th>server.name</th>
+                                <th colspan="2" class="sub-text">server.name</th>
                             </tr>
                             </thead>
                             <tr>
@@ -64,7 +56,7 @@
                     </table>
                 </div>
                 <div class="large-8 columns">
-                    <h3>General Information</h3>
+                    <h4>General Information</h4>
                     <table class="stack">
                         <tbody>
                             <tr>
@@ -100,9 +92,11 @@
                         </tbody>
                     </table>
                 </div>
+
             </div>
+            <!--.sub-nav-->
             <hr class="full-width">
-            <div class="row second-menu">
+            <div class="row sub-nav">
                 <ul class="menu">
                     <li class="menu-text">Actions |</li>
                     <li><a href="#">Link</a></li>
@@ -113,7 +107,8 @@
                 </ul>
             </div>
             <hr class="full-width">
-            <div class="row main-content">
+            <!--end .sub-nav-->
+            <div class="row content">
                 <div class="large-12 columns">
                     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                         <ul class="orbit-container">
@@ -139,7 +134,7 @@
             </div> 
             <div class="row">
                 <div class="large-6 columns">
-                    <ul class="accordion" data-accordion>
+                    <ul class="accordion" data-accordion data-allow-all-closed="true">
                         <li class="accordion-item" data-accordion-item>
                             <a href="#" class="accordion-title menu-text">Image Info</a>
                             <div class="accordion-content" data-tab-content>
@@ -164,7 +159,7 @@
                     </ul>
                 </div>
                 <div class="large-6 columns">
-                    <ul class="accordion" data-accordion>
+                    <ul class="accordion" data-accordion data-allow-all-closed="true">
                         <li class="accordion-item" data-accordion-item>
                             <a href="#" class="accordion-title menu-text">Event Info</a>
                             <div class="accordion-content" data-tab-content>
@@ -197,13 +192,12 @@
                     </ul>
                 </div>
             </div>
-               
-                
-            </div><!--end sticky-container-->
-        <footer>
+        </div><!--end sticky-container-->
+        <!--.main-footer-->
+        <footer class="main-footer content">
             <div class="top-bar">
                 <div class="row">
-                    <div class="column">
+                    <div class="column text-center">
                         <p>
                             &copy; Copyright Budget Dumpster 
                         </p>
@@ -211,7 +205,7 @@
                 </div>
             </div>
         </footer>
-        
+         <!--end .main-footer-->
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
